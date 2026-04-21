@@ -1,0 +1,18 @@
+  <div>
+      <nav class="breadcrumb">
+        <a href="/">Home</a>
+        <span> &gt; </span>
+
+        <a href="{{ group.absolute_url }}">{{ blog.name }}</a>
+        <span> &gt; </span>
+
+<!--               {% if content.topic_list %}
+        <a href="{{ content.topic_list[0].url }}">
+          {{ content.topic_list[0].name }}
+        </a>
+        <span> &gt; </span>
+        {% endif %} -->
+
+        <span class="current">{{ content.name  }}</span>
+      </nav>
+    </div>

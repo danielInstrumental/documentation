@@ -1,0 +1,10 @@
+{
+  "runtime": "nodejs18.x",
+  "version": "1.0",
+  "endpoints": {
+    "check": {
+      "method": "GET",
+      "file": "check.js"
+    }
+  }
+}
