@@ -196,6 +196,21 @@ build(vite): update build output paths
 ci(github): add linting workflow
 revert: revert "feat(theme): add sticky header to Pike child theme"
 
+
+| Type         | When to use                                                                                 |
+| ------------ | ------------------------------------------------------------------------------------------- |
+| **feat**     | Adds a new feature or functionality                                                         |
+| **fix**      | Fixes a bug                                                                                 |
+| **docs**     | Documentation changes                                                                       |
+| **style**    | Changes that **do not affect functionality**, e.g., formatting, colors, spacing, CSS tweaks |
+| **refactor** | Code changes that neither fix a bug nor add a feature                                       |
+| **perf**     | Performance improvements                                                                    |
+| **test**     | Adding or updating tests                                                                    |
+| **build**    | Build system or dependencies changes                                                        |
+| **ci**       | CI/CD pipeline or scripts                                                                   |
+| **chore**    | Miscellaneous maintenance tasks                                                             |
+| **revert**   | Reverts a previous commit                                                                   |
+
 ```
 
 
